@@ -1,0 +1,23 @@
+.chart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    min-width: 50%;
+    width: fit-content;
+    background-color: #EFEFEF;
+}
+
+.chart .chart-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.chart .chart-buttons button {
+    padding: 4px 12px;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+    background-color: #F3F3F3;
+}
