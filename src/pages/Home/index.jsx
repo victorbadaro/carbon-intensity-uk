@@ -21,7 +21,7 @@ export default function Home() {
 
     function handlePeriod() {
         setChartData({
-            // labels: ['June', 'July', 'September'],
+            // labels: ['June', 'July', 'September'],   
             labels: ['January/2016', 'February/2016', 'March/2016'],
             datasets: [{
                 backgroundColor: 'rgb(106,168,79)',
